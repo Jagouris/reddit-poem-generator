@@ -57,7 +57,7 @@ class Button():
             self.isHovered = False
             
 CHUNK_SIZE = 1024
-EL_API_url = "https://api.elevenlabs.io/v1/text-to-speech/5KeVioqFduwLMMmDTtmf"
+EL_API_url = #REDACTED
 
 def get_poem(search_term, queue):
     poem = generate_poem_from_comments(search_term)
@@ -68,7 +68,7 @@ def get_poem(search_term, queue):
         headers = {
             "Accept": "audio/mpeg",
             "Content-Type": "application/json",
-            "xi-api-key": "baecd3a46b900a1a310aa9a7b2f1cf73"
+            "xi-api-key": #REDACTED
         }
         
         data = {
