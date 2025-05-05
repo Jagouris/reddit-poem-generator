@@ -1,7 +1,7 @@
 import pygame
 import math
 from multiprocessing import Process, Queue
-from parse_comments_app import generate_poem_from_comments
+from parse_comments import generate_poem_from_comments
 import time
 import requests
 
